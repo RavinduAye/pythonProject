@@ -90,9 +90,9 @@ class pay:
             def loadClicked(self):
                 self.textBrowser.setText(user[1])
                 self.textBrowser_2.setText(str(user[2]))
-                self.textBrowser_3.setText(str(user[3]))
+                self.textBrowser_3.setText("Rs : " + str(user[3]) + ".00")
                 self.textBrowser_5.setText(med[1])
-                self.textBrowser_4.setText(str(med[2]))
+                self.textBrowser_4.setText("Rs : " + str(med[2]) + ".00")
 
             def keyPressEvent(self, event):
 
